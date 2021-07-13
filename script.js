@@ -36,6 +36,7 @@ $(document).ready(function() {
             });
             checkDragAndDrop();
         }
+        $("#prompt").text(current_question.prompt);
         $("#question-form").append('<button class="item">OK</button>'); // always need a submit button
     }
 
